@@ -1,4 +1,4 @@
-# AesFA (AAAI 2024)
+# AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer (AAAI 2024)
 Official Pytorch code for "AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer"
 
 ## Introduction
