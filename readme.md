@@ -1,5 +1,9 @@
 # AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer (AAAI 2024)
 Official Pytorch code for "AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer" <br/>
+
+Project page: 
+arXiv preprint: <https://arxiv.org/abs/2305.18274>
+
 <u>First co-authors</u>
 - Joonwoo Kwon (joonkwon96@gmail.com, **pioneers@snu.ac.kr**)<br/>
 - Sooyoung Kim (sooyyoungg513@gmail.com, **rlatndud0513@snu.ac.kr**) <br/>
