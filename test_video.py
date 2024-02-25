@@ -141,7 +141,7 @@ def main():
                 save_img(config, cont_name, sty_name, content, style_h, stylized)
 
         t_during = float(t_during / (len(contents) * len(styles)))
-        print("[Ours] Total images:", len(contents) * len(styles), "Avg Testing time:", t_during)
+        print("[AesFA] Total images:", len(contents) * len(styles), "Avg Testing time:", t_during)
 
             
 if __name__ == '__main__':
