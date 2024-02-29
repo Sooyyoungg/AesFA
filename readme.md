@@ -27,15 +27,17 @@ cd AesFA
 ```
 
 **Train:**
-- Download dataset MS-COCO for content images and WikiArt for style images.
-- Download the pre-trained vgg_normalised.pth.
+- Download dataset [MS-COCO](https://cocodataset.org/#download) for content images and [WikiArt](https://www.kaggle.com/c/painter-by-numbers) for style images.
+- Download the pre-trained [vgg_normalised.pth](https://drive.google.com/file/d/1PUXro9eqHpPs_JwmVe47xY692N3-G9MD/view).
 - Change the training options in Config.py file.
 - The 'phase' must be 'train'.
-- The 'train_continue' should be 'on' if you train continuously with the previous model file.
+- The 'train_continue' should be 'on' if you train continuously with the previous model file.     
 ```python train.py```
 
 **Test:**
-- You have to change options about test in the Config.py file.
-- Change phase into 'test' and other options (ex) data info (num, dir), image load and crop size
+- Change options about testing in the Config.py file.
+- Change phase into 'test' and other options (ex) data info (num, dir), image load and crop size.
+- If you want to use content and style images with different sizes, you can set test_content_size and test_style_size differently.
+- Also, you can choose whether you want to translate using multi_to_multi or only translate content images using each style image.
 ```python test.py```
 
