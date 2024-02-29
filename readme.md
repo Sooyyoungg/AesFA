@@ -21,10 +21,10 @@ Neural style transfer (NST) has evolved significantly in recent years. Yet, desp
 
 ## Getting Started:
 **Clone this repo:**
-'''
-git clone 
+```
+git clone https://github.com/Sooyyoungg/AesFA
 cd AesFA
-'''
+```
 
 **Test:**
 
