@@ -38,6 +38,6 @@ cd AesFA
 - Change options about testing in the Config.py file.
 - Change phase into 'test' and other options (ex) data info (num, dir), image load and crop size.
 - If you want to use content and style images with different sizes, you can set test_content_size and test_style_size differently.
-- Also, you can choose whether you want to translate using multi_to_multi or only translate content images using each style image.
+- Also, you can choose whether you want to translate using multi_to_multi or only translate content images using each style image.        
 ```python test.py```
 
