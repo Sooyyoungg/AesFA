@@ -26,5 +26,16 @@ git clone https://github.com/Sooyyoungg/AesFA
 cd AesFA
 ```
 
+**Train:**
+- Download dataset MS-COCO for content images and WikiArt for style images.
+- Download the pre-trained vgg_normalised.pth.
+- Change the training options in Config.py file.
+- The 'phase' must be 'train'.
+- The 'train_continue' should be 'on' if you train continuously with the previous model file.
+```python train.py```
+
 **Test:**
+- You have to change options about test in the Config.py file.
+- Change phase into 'test' and other options (ex) data info (num, dir), image load and crop size
+```python test.py```
 
