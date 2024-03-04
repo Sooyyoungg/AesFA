@@ -50,9 +50,9 @@ class Config:
     style_kernel = 3     # size of style kernel
     
     # Octave Convolution parameters
-    alpha_in = 0.5
-    alpha_out = 0.5
-    freq_ratio = [1, 1]  # [high, low] ratio at the last layer in Octave Convolution
+    alpha_in = 0.5       # input ratio of low-frequency channel
+    alpha_out = 0.5      # output ratio of low-frequency channel
+    freq_ratio = [1, 1]  # [high, low] ratio at the last layer
 
     # Loss ratio
     lambda_percept = 1.0
