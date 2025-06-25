@@ -28,7 +28,7 @@ cd AesFA
 
 **Train:**
 - Download dataset [MS-COCO](https://cocodataset.org/#download) for content images and [WikiArt](https://www.kaggle.com/c/painter-by-numbers) for style images.
-- Download the pre-trained [vgg_normalised.pth]([https://drive.google.com/file/d/12D1feMRBWDvi1_3jIbx8vgLJTR3EA0VV/view?usp=drive_link](https://github.com/naoto0804/pytorch-AdaIN/releases/tag/v0.0.0)).
+- Download the pre-trained [vgg_normalised.pth](https://github.com/naoto0804/pytorch-AdaIN/releases/tag/v0.0.0).
 - Change the training options in Config.py file.
 - The 'phase' must be 'train'.
 - The 'train_continue' should be 'on' if you train continuously with the previous model file.     
